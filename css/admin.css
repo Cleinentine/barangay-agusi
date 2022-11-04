@@ -1,0 +1,64 @@
+canvas {
+    height: 300px;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table tbody tr td {
+    border: 1px solid var(--red);
+    font-size: 0.875rem;
+    padding: 5px;
+}
+
+table thead tr th {
+    border: 1px solid var(--red);
+    font-size: 0.875rem;
+    padding: 5px;
+}
+
+.admin-box {
+    background-color: var(--light_gray);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.admin-container {
+    float: right;
+    padding: 15px;
+    width: 80%
+}
+
+.admin-container h1,
+.admin-container h3 {
+    font-weight: 900;
+}
+
+.admin-container h3 {
+    font-size: 0.900rem;
+}
+
+.admin-container h4 {
+    font-size: 2rem;
+    margin: 10px auto;
+}
+
+.admin-container hr {
+    border: none;
+    border-bottom: 1px solid var(--red);
+    margin: 15px auto;
+}
+
+.table-responsive {
+    overflow-x: scroll;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .admin-container {
+        width: 70%;
+    }
+}

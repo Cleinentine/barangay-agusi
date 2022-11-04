@@ -1,0 +1,70 @@
+.contact {
+    background-color: var(--peach);
+}
+
+.contact h2 {
+    font-size: 3.7rem;
+    font-weight: 900;
+}
+
+.contact h3 {
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+.contact h4 {
+    font-size: 0.875rem;
+    font-weight: 800;
+}
+
+.contact h5 {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 5px;
+    padding-left: 50px;
+}
+
+.contact h5 a {
+    color: var(--red);
+    text-decoration: none;
+}
+
+.contact h5 a:hover {
+    color: var(--dark_red);
+    text-decoration: underline;
+}
+
+.contact h6 {
+    font-weight: 300;
+    pointer-events: none;
+    text-align: center;
+    user-select: none;
+}
+
+.contact iframe {
+    background-color: var(--dark_red);
+    border: 2px solid var(--dark_red);
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .grid-cols-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact iframe {
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .contact h2 {
+        font-size: 2.5rem;
+    }
+
+    .contact iframe {
+        height: 100vh;
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,38 @@
+.guest {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 50px 30px;
+    width: 400px;
+}
+
+.guest h2 {
+    font-weight: 900;
+}
+
+.guest h3 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.guest a {
+    color: var(--red);
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.guest a:hover {
+    color: var(--dark_red);
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1024px) {
+    .guest {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .guest {
+        width: 90%;
+    }
+}
